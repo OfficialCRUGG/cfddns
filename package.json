@@ -1,14 +1,14 @@
 {
     "name": "cfddns",
     "version": "0.1.0",
-    "description": "Cloudflare Dynamic DNS Tool",
+    "description": "☁️ Automatic Cloudflare DNS updater for dynamic IP addresses",
     "main": "dist/lib.js",
     "types": "dist/lib.d.ts",
     "files": [
         "dist/**/*"
     ],
-    "repository": "https://github.com/blazingworks/helloworld.git",
-    "author": "BlazingWorks",
+    "repository": "https://github.com/OfficialCRUGG/cfddns.git",
+    "author": "OfficialCRUGG",
     "license": "MIT",
     "private": false,
     "bin": {

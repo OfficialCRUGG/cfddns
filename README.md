@@ -1,14 +1,14 @@
 <div align="center">
 
-# cfddns
+# cfddns (cloudflare-dyndns)
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/OfficialCRUGG/cfddns?style=for-the-badge)
-![npm Downloads](https://img.shields.io/npm/dy/cfddns?style=for-the-badge)
+![npm Downloads](https://img.shields.io/npm/dy/cloudflare-dyndns?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/OfficialCRUGG/cfddns?style=for-the-badge)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/OfficialCRUGG/cfddns?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/OfficialCRUGG/cfddns?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/OfficialCRUGG/cfddns?style=for-the-badge)
-![npm Version](https://img.shields.io/npm/v/cfddns?style=for-the-badge)
+![npm Version](https://img.shields.io/npm/v/cloudflare-dyndns?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/OfficialCRUGG/cfddns?style=for-the-badge)
 
 </div>
@@ -24,9 +24,9 @@
 ## Installation
 
 ```bash
-yarn global add cfddns
+yarn global add cloudflare-dyndns
 # or
-npm i -g cfddns
+npm i -g cloudflare-dyndns
 ```
 
 ## Before starting
@@ -67,11 +67,9 @@ Options:
 ## How to report issues/questions
 
 -   For general issues/questions, [open an issue](https://github.com/OfficialCRUGG/cfddns/issues)
--   For security issues, please email [security@blazing.works](mailto:security@blazing.works)
--   For important questions, please email [opensource@blazing.works](mailto:opensource@blazing.works)
 
 ## License
 
-As this is an open-source project, support is limited. Please use [GitHub Issues](https://github.com/OfficialCRUGG/cfddns/issues) for community support or contact [opensource@blazing.works](mailto:opensource@blazing.works) for very important matters.
+As this is an open-source project, support is limited. Please use [GitHub Issues](https://github.com/OfficialCRUGG/cfddns/issues) for support
 
 **ℹ️ All code in this repository is licensed under the [MIT License](LICENSE.md).**

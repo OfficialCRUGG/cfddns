@@ -1,5 +1,5 @@
 {
-    "name": "cfddns",
+    "name": "cloudflare-dyndns",
     "version": "0.1.0",
     "description": "☁️ Automatic Cloudflare DNS updater for dynamic IP addresses",
     "main": "dist/lib.js",

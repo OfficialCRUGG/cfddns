@@ -11,6 +11,14 @@
     "author": "OfficialCRUGG",
     "license": "MIT",
     "private": false,
+    "keywords": [
+        "cloudflare",
+        "dns",
+        "ddns",
+        "dyndns",
+        "dynamicdns",
+        "ip"
+    ],
     "bin": {
         "cfddns": "dist/bin.js"
     },

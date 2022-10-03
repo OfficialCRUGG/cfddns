@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "commonjs",
+        "strict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "declaration": true
+    },
+    "exclude": ["tests/**/*"]
+}

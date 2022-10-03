@@ -98,6 +98,7 @@ function configWizard(configExists: boolean) {
                 choices: ["5 minutes", "15 minutes", "30 minutes", "1 hour", "4 hours", "8 hours", "12 hours"],
                 when: (answers) => answers.confirmation,
             },
+            /*
             {
                 type: "confirm",
                 name: "panel",
@@ -117,6 +118,7 @@ function configWizard(configExists: boolean) {
                 message: "What password do you want to use for the web panel? (This will be saved in plain text on your computer)",
                 when: (answers) => answers.confirmation && answers.panel,
             },
+            */
         ])
         .then((answers) => {
             if (!answers.confirmation) process.exit(0);
@@ -134,7 +136,7 @@ function configWizard(configExists: boolean) {
                 .replace("{{cloudflare_api_token}}", answers.cloudflareApiToken)
                 .replace("{{cloudflare_zone_id}}", answers.cloudflareZoneId)
                 .replace("{{cloudflare_domains}}", JSON.stringify(answers.cloudflareDomains.split(",")))
-                .replace("{{panel_enabled}}", answers.panel ? "true" : "false")
+                .replace("{{panel_enabled}}", answers.panel ? "true" : "false" || "false")
                 .replace("{{panel_port}}", answers.panelPort || 7887)
                 .replace("{{panel_password}}", answers.panelPassword || "changeme");
             fs.writeFileSync(configPath, config);

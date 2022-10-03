@@ -191,6 +191,7 @@ async function updateDns(cf: Cloudflare, config: any) {
                     name: domain,
                     content: ip,
                     ttl: 1,
+                    proxied: true,
                 });
                 logger.info(`Updated ${domain} to ${ip}`);
             } else {
@@ -201,6 +202,7 @@ async function updateDns(cf: Cloudflare, config: any) {
                     name: domain,
                     content: ip,
                     ttl: 1,
+                    proxied: true,
                 });
                 logger.info(`Created ${domain} to ${ip}`);
             }
